@@ -37,3 +37,19 @@ agent = TodoAIAgent("Open Chrome and navigate to github.com")
 result = agent.execute_task()
 print(result)
 ```
+
+## Demo Use Cases
+
+The following demo videos showcase TodoAI in action:
+
+1. **Using the console and writing texts**: [demo_use_cases/writing_text.mp4](demo_use_cases/writing_text.mp4)
+   - Prompt: "Open a new terminal and run code saying hello YC. Then open Word and write a poem."
+   - See how TodoAI can assist writing tasks and using the console
+
+2. **Running python code**: [demo_use_cases/running_code.mp4](demo_use_cases/running_code.mp4)
+   - Prompt: "Save my python file under my downloads Folder as 'hangman.py'. Then execute it via cmd."
+   - Watch TodoAI execute code and perform programming-related tasks
+
+3. **Ordering a book on Amazon**: [demo_use_cases/ordering_on_amazon.mp4](demo_use_cases/ordering_on_amazon.mp4)
+   - Prompt: "Go to Amazon.com and buy the book the singularity is nearer from Kurzweil in paperback."
+   - Example of TodoAI navigating e-commerce websites
