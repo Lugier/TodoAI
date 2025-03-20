@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+.env
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Data files and screenshots
+data/**/*.png
+data/click_locator/*.png
+data/step_handler/*.png
+data/task_planner/*.png
+
+# API keys and credentials
+*.pem
+*.key
+*.json
+!requirements.txt  # Keep requirements.txt
+
+# Local configuration
+.env
+.env.local
+.env.development
+.env.test
+.env.production
