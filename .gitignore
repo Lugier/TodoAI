@@ -1,10 +1,26 @@
+# Sensitive files
+*.json
+*.key
+*.env
+.env
+.env.*
+triple-rookery-453716-a3-b3a78e801d26.json
+
+# Data directory - exclude contents but keep structure
+data/**/*
+!data/**/
+!data/**/.gitkeep
+!data/README.md
+
 # Python
+venv/
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
 *.so
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -16,39 +32,33 @@ lib64/
 parts/
 sdist/
 var/
+wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 
-# Virtual environments
-venv/
-ENV/
-env/
-.venv/
-.env
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# IDE specific files
+# IDE 
 .idea/
 .vscode/
 *.swp
 *.swo
-.DS_Store
 
-# Data files and screenshots
-data/**/*.png
-data/click_locator/*.png
-data/step_handler/*.png
-data/task_planner/*.png
+# Log files
+*.log
+logs/
 
-# API keys and credentials
-*.pem
-*.key
-*.json
-!requirements.txt  # Keep requirements.txt
+# Misc
+*.bak
+*.tmp
+.cache/
 
-# Local configuration
-.env
-.env.local
-.env.development
-.env.test
-.env.production
+# Add any other sensitive files here 
